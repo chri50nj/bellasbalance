@@ -17,7 +17,7 @@ $(".home-scroll_section").each(function (index) {
       trigger: $(this),
       start: "top center",
       end: "bottom center",
-      markers: true
+      
 
       onToggle: (isActive) => {
         if (isActive) {
